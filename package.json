@@ -1,0 +1,24 @@
+{
+  "name": "ncl",
+  "version": "1.0.0-pre.0",
+  "description": "Copy npm/yarn linked modules like a boss.",
+  "bin": {
+    "ycl": "out/ycl.js",
+    "ncl": "out/ncl.js"
+  },
+  "scripts": {
+    "tsc": "tsc"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^2.1.2",
+    "ignore": "^3.2.7",    
+    "yargs": "^6.4.0"
+  },
+  "devDependencies": {
+    "typescript": "^2.2.2",
+    "@types/fs-extra": "^2.0.0",
+    "@types/node": "^6.0.48",
+    "@types/yargs": "^6.3.2"
+  }
+}
